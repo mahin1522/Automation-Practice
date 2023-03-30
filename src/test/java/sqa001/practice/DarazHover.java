@@ -13,7 +13,7 @@ public class DarazHover extends Basedriver{
 	public void assretioneg() throws InterruptedException {
 		Driver.get(url);
 		Driver.manage().window().maximize();
-		Thread.sleep(7000);
+		Thread.sleep(4000);
 		
 		Actions hover = new Actions(Driver);
 		
